@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start:watch": "nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,6 +16,7 @@
     "express": "4.17.1"
   },
   "devDependencies": {
+    "eslint": "6.7.2",
     "nodemon": "2.0.1"
   }
 }
